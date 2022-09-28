@@ -48,21 +48,42 @@ public class HelperUser extends HelperBase {
         wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("div.dialog-container"))));
         return wd.findElement(By.cssSelector("h2.message")).getText();
     }
+    public String getTitleMessage() {
+        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
+        wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("div.dialog-container"))));
 
+        // pause(2000);
+        return wd.findElement(By.cssSelector("div.dialog-container>h1")).getText();
+    }
     public void clickOkButton() {
         if (isElementPresent(By.xpath("//button[text()='Ok']"))) {
             click(By.xpath("//button[text()='Ok']"));
         }
 
-
     }
+
     public String getErrorMessage() {
+
         return wd.findElement(By.cssSelector("div.error")).getText();
     }
 
     public String getErrorWrongPassword() {
         WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("div.cdk-overlay-pane"))));
-        return wd.findElement(By.cssSelector("h2.message")).getText();
+        return wd.findElement(By.cssSelector("h1.title")).getText();
     }
+
+    public void openRegistrationForm() {
+        click(By.xpath("//a[text()=' Sign up ']"));
+    }
+
+    public void fillRegistrationForm(User user) {
+        type(By.cssSelector("#name"),user.getName());
+        type(By.cssSelector("#lastName"), user.getLastName());
+        type(By.id("email"), user.getEmail());
+        type(By.id("password"), user.getPassword());
+    }
+
+    public void checkPolicy() {
+        click(By.cssSelector("label[for='terms-of-use']"));    }
 }
