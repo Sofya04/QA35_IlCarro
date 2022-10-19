@@ -1,0 +1,19 @@
+15:21:02.222 [Test worker] INFO  manager.ApplicationManager - Chrome Driver was opened
+15:21:05.501 [Test worker] INFO  manager.ApplicationManager - Current URL --> https://ilcarro-1578153671498.web.app/search
+15:21:05.516 [Test worker] INFO  TestBase - START TEST WITH NAME: searchNextMonthSuccess
+15:21:05.517 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #city
+15:21:05.606 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #city
+15:21:06.126 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: div.pac-item
+15:21:06.791 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: div.pac-item
+15:21:07.073 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #dates
+15:21:07.117 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #dates
+15:21:10.251 [Test worker] INFO  manager.ListenerWD - After FInd Elements By -->By.xpath: //*[text()=' OCT 2022 ']
+15:21:10.252 [Test worker] INFO  manager.ListenerWD - List size is-->2
+15:21:10.252 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //div[text()=' 25 ']
+15:21:10.265 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //div[text()=' 25 ']
+15:21:10.600 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //div[text()=' 30 ']
+15:21:10.656 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //div[text()=' 30 ']
+15:21:10.783 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+15:21:10.800 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+15:21:10.837 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+15:21:10.848 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']

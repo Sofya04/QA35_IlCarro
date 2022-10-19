@@ -1,0 +1,38 @@
+15:33:09.861 [Test worker] INFO  manager.ApplicationManager - Chrome Driver was opened
+15:33:12.220 [Test worker] INFO  manager.ApplicationManager - Current URL --> https://ilcarro-1578153671498.web.app/search
+15:33:12.239 [Test worker] INFO  TestBase - START TEST WITH NAME: searchCurrentMonthSuccess
+15:33:12.241 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #city
+15:33:12.318 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #city
+15:33:12.836 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: div.pac-item
+15:33:13.287 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: div.pac-item
+15:33:13.646 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #dates
+15:33:13.682 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #dates
+15:33:17.067 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //div[text()=' 25 ']
+15:33:17.153 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //div[text()=' 25 ']
+15:33:17.491 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //div[text()=' 30 ']
+15:33:17.506 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //div[text()=' 30 ']
+15:33:17.688 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+15:33:17.705 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+15:33:17.745 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+15:33:17.753 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+15:33:20.364 [Test worker] INFO  manager.ListenerWD - After FInd Elements By -->By.cssSelector: .car-img-container
+15:33:20.364 [Test worker] INFO  manager.ListenerWD - List size is-->10
+15:33:20.368 [Test worker] INFO  TestBase - START TEST WITH NAME: searchNextMonthSuccess
+15:33:20.368 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #city
+15:33:20.902 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #city
+15:33:25.384 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: div.pac-item
+15:33:25.394 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: div.pac-item
+15:33:26.090 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: [formcontrolname='dates']
+15:33:26.121 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: [formcontrolname='dates']
+15:33:26.251 [Test worker] INFO  manager.ListenerWD - After FInd Elements By -->By.xpath: //*[text()=' OCT 2022 ']
+15:33:26.251 [Test worker] INFO  manager.ListenerWD - List size is-->1
+15:33:26.252 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //div[text()=' 25 ']
+15:33:26.260 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //div[text()=' 25 ']
+15:33:26.302 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //div[text()=' 30 ']
+15:33:26.311 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //div[text()=' 30 ']
+15:33:26.429 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+15:33:26.512 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+15:33:26.595 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+15:33:26.607 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+15:33:27.856 [Test worker] INFO  manager.ListenerWD - After FInd Elements By -->By.cssSelector: .car-img-container
+15:33:27.857 [Test worker] INFO  manager.ListenerWD - List size is-->10

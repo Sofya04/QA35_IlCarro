@@ -1,9 +1,10 @@
+import manager.DataProviderUser;
 import models.User;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
 
 public class LoginTest extends TestBase{
 
@@ -11,17 +12,34 @@ public class LoginTest extends TestBase{
     public void precondition(){
         if (app.getHelperUser().isLogged())
             app.getHelperUser().logOut();
+        logger.info("User logged out");
 
     }
 
-    @Test
-    public void loginSuccess(){
+    @Test (dataProvider = "datalogin", dataProviderClass = DataProviderUser.class)
+    public void loginSuccess(String email, String password){
+        logger.info("Login scenario success was used data email" +email+ " && password "+password);
+
         app.getHelperUser().openLoginFormHeader();
-        app.getHelperUser().fillLoginForm("sonka04@gmail.com", "Sonka04$");
+        app.getHelperUser().fillLoginForm(email, password);
         app.getHelperUser().submit();
 
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
-        //Assert.assertTrue(app.getHelperUser().isLogged());
+        logger.info("Assert for successful login passed");
+    }
+
+
+    @Test(dataProvider = "dataModelUser", dataProviderClass = DataProviderUser.class)
+    public void loginSuccessModelsDP(User user){
+
+        app.getHelperUser().openLoginFormHeader();
+        app.getHelperUser().fillLoginForm(user);
+        app.getHelperUser().submit();
+
+        Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
+        Assert.assertTrue(app.getHelperUser().isLogged());
+        logger.info("User logged in successfully with such data: sonka04@gmail.com, Sonka04$");
+
     }
     @Test
     public void loginSuccessModels(){
@@ -32,6 +50,9 @@ public class LoginTest extends TestBase{
 
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
         Assert.assertTrue(app.getHelperUser().isLogged());
+        logger.info("User logged in successfully with such data: sonka04@gmail.com, Sonka04$");
+        logger.info("Assert for successful login passed");
+
     }
 
     @Test
@@ -57,7 +78,6 @@ public class LoginTest extends TestBase{
     @AfterMethod
     public void postCondition(){
         app.getHelperUser().clickOkButton();
-
     }
 
 }

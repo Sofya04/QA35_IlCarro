@@ -86,4 +86,11 @@ public class HelperUser extends HelperBase {
 
     public void checkPolicy() {
         click(By.cssSelector("label[for='terms-of-use']"));    }
+
+    public void login(User user) {
+        openLoginFormHeader();
+        fillLoginForm(user);
+        submit();
+        clickOkButton();
+    }
 }

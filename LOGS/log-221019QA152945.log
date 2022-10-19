@@ -1,0 +1,38 @@
+15:29:48.100 [Test worker] INFO  manager.ApplicationManager - Chrome Driver was opened
+15:29:51.672 [Test worker] INFO  manager.ApplicationManager - Current URL --> https://ilcarro-1578153671498.web.app/search
+15:29:51.694 [Test worker] INFO  TestBase - START TEST WITH NAME: searchCurrentMonthSuccess
+15:29:51.695 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #city
+15:29:51.782 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #city
+15:29:52.392 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: div.pac-item
+15:29:53.411 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: div.pac-item
+15:29:54.814 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #dates
+15:29:54.960 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #dates
+15:29:56.651 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //div[text()=' 25 ']
+15:29:56.750 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //div[text()=' 25 ']
+15:29:56.932 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //div[text()=' 30 ']
+15:29:56.946 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //div[text()=' 30 ']
+15:29:57.182 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+15:29:57.239 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+15:29:57.420 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+15:29:57.484 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+15:29:59.998 [Test worker] INFO  manager.ListenerWD - After FInd Elements By -->By.cssSelector: .car-img-container
+15:29:59.998 [Test worker] INFO  manager.ListenerWD - List size is-->10
+15:30:00.001 [Test worker] INFO  TestBase - START TEST WITH NAME: searchNextMonthSuccess
+15:30:00.002 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #city
+15:30:00.618 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #city
+15:30:05.505 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: div.pac-item
+15:30:05.530 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: div.pac-item
+15:30:05.594 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #dates
+15:30:10.665 [Test worker] INFO  manager.ListenerWD - The name of the error methodfindElement
+15:30:10.685 [Test worker] INFO  manager.ListenerWD - Error description: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dates"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Gurevichs-MBP.lan', ip: '2a0d:6fc2:4e60:a900:6c9e:3e0c:d52d:ff7d%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6fa1e62b552c47c7d133b9a5b25cbedf, findElement {using=css selector, value=#dates}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /var/folders/1t/ycm_f_n138g...}, goog:chromeOptions: {debuggerAddress: localhost:58659}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:58659/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6fa1e62b552c47c7d133b9a5b25cbedf
+15:30:10.685 [Test worker] INFO  manager.ListenerWD - ******************************
+15:30:10.685 [Test worker] INFO  manager.ListenerWD - ChromeDriver: chrome on MAC (6fa1e62b552c47c7d133b9a5b25cbedf)
+15:30:10.687 [Test worker] INFO  manager.ListenerWD - Screen with error is 1607src/test/Screenshots/screen1607.png
