@@ -1,0 +1,58 @@
+10:51:42.720 [Test worker] INFO  manager.ApplicationManager - Chrome Driver was opened
+10:51:46.968 [Test worker] INFO  manager.ApplicationManager - Current URL --> https://ilcarro-1578153671498.web.app/search
+10:51:46.991 [Test worker] INFO  TestBase - START TEST WITH NAME: searchCurrentMonthSuccessFromMainPage
+10:51:46.993 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #city
+10:51:47.029 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #city
+10:51:47.712 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: div.pac-item
+10:51:48.609 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: div.pac-item
+10:51:51.101 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #dates
+10:51:51.280 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #dates
+10:51:51.894 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //div[text()=' 25 ']
+10:51:51.989 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //div[text()=' 25 ']
+10:51:52.130 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //div[text()=' 30 ']
+10:51:52.146 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //div[text()=' 30 ']
+10:51:52.393 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+10:51:52.456 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+10:51:52.656 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+10:51:52.735 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+10:51:55.264 [Test worker] INFO  manager.ListenerWD - After FInd Elements By -->By.cssSelector: .car-img-container
+10:51:55.265 [Test worker] INFO  manager.ListenerWD - List size is-->10
+10:51:55.269 [Test worker] INFO  TestBase - START TEST WITH NAME: searchNextMonthSuccess
+10:51:55.269 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #city
+10:51:55.738 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #city
+10:51:59.897 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: div.pac-item
+10:51:59.981 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: div.pac-item
+10:52:00.824 [Test worker] INFO  manager.ListenerWD - The name of the error methodclick
+10:52:00.839 [Test worker] INFO  manager.ListenerWD - Error description: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Gurevichs-MBP.lan', ip: '2a0d:6fc2:4e60:a900:6c9e:3e0c:d52d:ff7d%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3ac059196596411d2bb9b14217d21daf, clickElement {id=2c6d9e14-bdd0-431e-806d-9d13038ce4f0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /var/folders/1t/ycm_f_n138g...}, goog:chromeOptions: {debuggerAddress: localhost:62393}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62393/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (3ac059196596411d2bb9b14217d21daf)] -> css selector: div.pac-item]
+Session ID: 3ac059196596411d2bb9b14217d21daf
+10:52:00.840 [Test worker] INFO  manager.ListenerWD - ******************************
+10:52:00.840 [Test worker] INFO  manager.ListenerWD - [[ChromeDriver: chrome on MAC (3ac059196596411d2bb9b14217d21daf)] -> css selector: div.pac-item]
+10:52:00.841 [Test worker] INFO  manager.ListenerWD - Screen with error is 1329src/test/Screenshots/screen1329.png
+10:52:00.844 [Test worker] INFO  TestBase - START TEST WITH NAME: searchNextMonthSuccessFromHeader
+10:52:00.844 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: [href='/search']
+10:52:00.858 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: [href='/search']
+10:52:01.015 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #city
+10:52:01.024 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #city
+10:52:01.222 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: div.pac-item
+10:52:01.230 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: div.pac-item
+10:52:06.288 [Test worker] INFO  manager.ListenerWD - The name of the error methodclick
+10:52:06.288 [Test worker] INFO  manager.ListenerWD - Error description: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Gurevichs-MBP.lan', ip: '2a0d:6fc2:4e60:a900:6c9e:3e0c:d52d:ff7d%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3ac059196596411d2bb9b14217d21daf, clickElement {id=e982254d-513f-4ad6-8738-1f3f505af5bd}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /var/folders/1t/ycm_f_n138g...}, goog:chromeOptions: {debuggerAddress: localhost:62393}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62393/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (3ac059196596411d2bb9b14217d21daf)] -> css selector: div.pac-item]
+Session ID: 3ac059196596411d2bb9b14217d21daf
+10:52:06.289 [Test worker] INFO  manager.ListenerWD - ******************************
+10:52:06.289 [Test worker] INFO  manager.ListenerWD - [[ChromeDriver: chrome on MAC (3ac059196596411d2bb9b14217d21daf)] -> css selector: div.pac-item]
+10:52:06.289 [Test worker] INFO  manager.ListenerWD - Screen with error is 1921src/test/Screenshots/screen1921.png

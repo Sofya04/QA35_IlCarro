@@ -1,0 +1,59 @@
+10:55:36.807 [Test worker] INFO  manager.ApplicationManager - Chrome Driver was opened
+10:55:42.360 [Test worker] INFO  manager.ApplicationManager - Current URL --> https://ilcarro-1578153671498.web.app/search
+10:55:42.384 [Test worker] INFO  TestBase - START TEST WITH NAME: searchCurrentMonthSuccessFromMainPage
+10:55:42.395 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #city
+10:55:42.433 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #city
+10:55:43.061 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: div.pac-item
+10:55:43.905 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: div.pac-item
+10:55:45.163 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #dates
+10:55:46.472 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #dates
+10:55:47.033 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //div[text()=' 25 ']
+10:55:47.104 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //div[text()=' 25 ']
+10:55:47.256 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //div[text()=' 30 ']
+10:55:47.273 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //div[text()=' 30 ']
+10:55:47.505 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+10:55:47.571 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+10:55:47.759 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+10:55:47.822 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+10:55:50.284 [Test worker] INFO  manager.ListenerWD - After FInd Elements By -->By.cssSelector: .car-img-container
+10:55:50.285 [Test worker] INFO  manager.ListenerWD - List size is-->10
+10:55:50.288 [Test worker] INFO  TestBase - START TEST WITH NAME: searchNextMonthSuccess
+10:55:50.289 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #city
+10:55:50.844 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #city
+10:55:56.026 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: div.pac-item
+10:55:56.036 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: div.pac-item
+10:55:56.611 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: [formcontrolname='dates']
+10:55:56.631 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: [formcontrolname='dates']
+10:55:56.721 [Test worker] INFO  manager.ListenerWD - After FInd Elements By -->By.xpath: //*[text()=' OCT 2022 ']
+10:55:56.740 [Test worker] INFO  manager.ListenerWD - List size is-->1
+10:55:56.760 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //div[text()=' 25 ']
+10:55:56.788 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //div[text()=' 25 ']
+10:55:56.836 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //div[text()=' 30 ']
+10:55:56.862 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //div[text()=' 30 ']
+10:55:56.955 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+10:55:56.963 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+10:55:56.983 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+10:55:56.991 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+10:55:58.116 [Test worker] INFO  manager.ListenerWD - After FInd Elements By -->By.cssSelector: .car-img-container
+10:55:58.117 [Test worker] INFO  manager.ListenerWD - List size is-->10
+10:55:58.118 [Test worker] INFO  TestBase - START TEST WITH NAME: searchNextMonthSuccessFromHeader
+10:55:58.118 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: [href='/search']
+10:55:58.152 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: [href='/search']
+10:55:58.346 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #city
+10:55:58.355 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #city
+10:55:58.508 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: div.pac-item
+10:55:58.805 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: div.pac-item
+10:55:59.342 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #dates
+10:55:59.363 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #dates
+10:55:59.764 [Test worker] INFO  manager.ListenerWD - After FInd Elements By -->By.xpath: //*[text()=' OCT 2022 ']
+10:55:59.765 [Test worker] INFO  manager.ListenerWD - List size is-->1
+10:55:59.765 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //div[text()=' 25 ']
+10:55:59.773 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //div[text()=' 25 ']
+10:55:59.810 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //div[text()=' 30 ']
+10:55:59.818 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //div[text()=' 30 ']
+10:55:59.895 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+10:55:59.907 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+10:55:59.922 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+10:55:59.929 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+10:56:01.984 [Test worker] INFO  manager.ListenerWD - After FInd Elements By -->By.cssSelector: .car-img-container
+10:56:01.984 [Test worker] INFO  manager.ListenerWD - List size is-->10

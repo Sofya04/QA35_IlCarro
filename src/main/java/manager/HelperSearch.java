@@ -15,6 +15,7 @@ public class HelperSearch extends HelperBase{
     }
 
     public void searchCurrentMonth(String city, String dateFrom, String dateTo) {
+        //click(By.cssSelector());
         typeCity(city);
         click(By.cssSelector("#dates"));
 

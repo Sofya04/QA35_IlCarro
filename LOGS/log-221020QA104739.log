@@ -1,0 +1,19 @@
+10:47:41.184 [Test worker] INFO  manager.ApplicationManager - Chrome Driver was opened
+10:47:45.761 [Test worker] INFO  manager.ApplicationManager - Current URL --> https://ilcarro-1578153671498.web.app/search
+10:47:45.784 [Test worker] INFO  TestBase - START TEST WITH NAME: searchCurrentMonthSuccessFromMainPage
+10:47:45.785 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #city
+10:47:45.821 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #city
+10:47:46.453 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: div.pac-item
+10:47:47.371 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: div.pac-item
+10:47:49.757 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #dates
+10:47:49.985 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #dates
+10:47:50.591 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //div[text()=' 25 ']
+10:47:50.783 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //div[text()=' 25 ']
+10:47:50.915 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //div[text()=' 30 ']
+10:47:50.929 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //div[text()=' 30 ']
+10:47:51.208 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+10:47:51.314 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+10:47:51.481 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+10:47:51.572 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+10:47:53.980 [Test worker] INFO  manager.ListenerWD - After FInd Elements By -->By.cssSelector: .car-img-container
+10:47:53.981 [Test worker] INFO  manager.ListenerWD - List size is-->10
