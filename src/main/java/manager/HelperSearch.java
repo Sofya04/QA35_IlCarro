@@ -45,7 +45,7 @@ public class HelperSearch extends HelperBase{
         pause(500);
         click(By.cssSelector("[formcontrolname='dates']"));
 
-        if(isNovemberPresent()==false){
+        if(isPreviousPageButtonNotActive()){
             click(By.cssSelector(".mat-calendar-next-button"));
         }
         String[]from = dateFrom.split("/");
@@ -66,7 +66,7 @@ public class HelperSearch extends HelperBase{
         typeCity(city);
         pause(500);
         click(By.cssSelector("#dates"));
-        if(isNovemberPresent()==false){
+        if(isPreviousPageButtonNotActive()){
             click(By.cssSelector(".mat-calendar-next-button"));
         }
         String[]from = dateFrom.split("/");
@@ -87,5 +87,11 @@ public class HelperSearch extends HelperBase{
 
     public boolean isListOfCarsAppeared() {
         return wd.findElements(By.cssSelector(".car-img-container")).size()>0;
+    }
+
+    public boolean isPreviousPageButtonNotActive() {
+        boolean res =isElementPresent(By.cssSelector("[aria-label='Previous month']"));
+
+        return res &&!wd.findElement(By.cssSelector("[aria-label='Previous month']")).isEnabled();
     }
 }

@@ -39,6 +39,7 @@ public class HelperBase {
         return res &&!wd.findElement(By.cssSelector("[type='submit']")).isEnabled();
     }
 
+
     public void click(By locator) {
     wd.findElement(locator).click();
     }
