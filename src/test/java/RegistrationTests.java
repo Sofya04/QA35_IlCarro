@@ -49,9 +49,10 @@ public class RegistrationTests extends TestBase{
         app.getHelperUser().openRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().checkPolicy();
-        app.getHelperUser().submit();
+        //app.getHelperUser().submit();
         Assert.assertTrue(app.getHelperUser().isYallaButtonNotActive());
-        Assert.assertEquals(app.getHelperUser().getErrorMessage(),"Password must contain minimum 8 symbols ");
+        Assert.assertEquals(app.getHelperUser().getErrorMessage(),"Password must contain minimum 8 symbols\n" +
+                "Password must contain 1 uppercase letter, 1 lowercase letter and one number");
 
     }
     @AfterMethod
