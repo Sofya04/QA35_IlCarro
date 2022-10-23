@@ -1,0 +1,23 @@
+17:30:00.265 [Test worker] INFO  manager.ApplicationManager - Chrome Driver was opened
+17:30:04.245 [Test worker] INFO  manager.ApplicationManager - Current URL --> https://ilcarro-1578153671498.web.app/search
+17:30:04.266 [Test worker] INFO  TestBase - START TEST WITH NAME: searchInPast
+17:30:04.267 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #city
+17:30:04.350 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #city
+17:30:05.026 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: div.pac-item
+17:30:05.682 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: div.pac-item
+17:30:06.913 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.id: dates
+17:30:07.773 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.id: dates
+17:30:10.877 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+17:30:10.980 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+17:30:11.014 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+17:30:11.023 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+17:30:11.049 [Test worker] INFO  manager.ListenerWD - After FInd Elements By -->By.cssSelector: button[disabled]
+17:30:11.049 [Test worker] INFO  manager.ListenerWD - List size is-->2
+17:30:11.049 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: [type='submit']
+17:30:11.061 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: [type='submit']
+17:30:11.119 [Test worker] INFO  manager.ListenerWD - After FInd Elements By -->By.cssSelector: button[disabled]
+17:30:11.119 [Test worker] INFO  manager.ListenerWD - List size is-->2
+17:30:11.119 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: [type='submit']
+17:30:11.128 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: [type='submit']
+17:30:11.145 [Test worker] INFO  manager.ListenerWD - After FInd Elements By -->By.cssSelector: div.error>div
+17:30:11.146 [Test worker] INFO  manager.ListenerWD - List size is-->1

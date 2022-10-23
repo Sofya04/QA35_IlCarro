@@ -1,0 +1,11 @@
+17:13:10.043 [Test worker] INFO  manager.ApplicationManager - Chrome Driver was opened
+17:13:12.886 [Test worker] INFO  manager.ApplicationManager - Current URL --> https://ilcarro-1578153671498.web.app/search
+17:13:12.906 [Test worker] INFO  TestBase - START TEST WITH NAME: searchInPast
+17:13:12.907 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #city
+17:13:12.986 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #city
+17:13:13.541 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: div.pac-item
+17:13:13.980 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: div.pac-item
+17:13:14.159 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.id: dates
+17:13:14.171 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.id: dates
+17:13:18.950 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+17:13:19.408 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']

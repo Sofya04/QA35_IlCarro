@@ -93,4 +93,8 @@ public class HelperUser extends HelperBase {
         submit();
         clickOkButton();
     }
+
+    public boolean isErrorMessageDisplayed() {
+        return wd.findElements(By.cssSelector("div.error")).size()>0;
+    }
 }

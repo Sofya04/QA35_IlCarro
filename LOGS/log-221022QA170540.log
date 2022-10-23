@@ -1,0 +1,31 @@
+17:05:44.977 [Test worker] INFO  manager.ApplicationManager - Chrome Driver was opened
+17:05:48.664 [Test worker] INFO  manager.ApplicationManager - Current URL --> https://ilcarro-1578153671498.web.app/search
+17:05:48.688 [Test worker] INFO  TestBase - START TEST WITH NAME: searchNextMonthSuccessFromHeader
+17:05:48.689 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: [href='/search']
+17:05:48.778 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: [href='/search']
+17:05:48.912 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #city
+17:05:48.925 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #city
+17:05:49.595 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: div.pac-item
+17:05:51.864 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: div.pac-item
+17:05:53.520 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #dates
+17:05:53.552 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #dates
+17:05:54.178 [Test worker] INFO  manager.ListenerWD - After FInd Elements By -->By.cssSelector: [aria-label='Previous month']
+17:05:54.178 [Test worker] INFO  manager.ListenerWD - List size is-->1
+17:05:54.178 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: [aria-label='Previous month']
+17:05:54.190 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: [aria-label='Previous month']
+17:05:54.198 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: .mat-calendar-next-button
+17:05:54.210 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: .mat-calendar-next-button
+17:05:54.511 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //div[text()=' 25 ']
+17:05:54.580 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //div[text()=' 25 ']
+17:05:55.145 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //div[text()=' 30 ']
+17:05:55.187 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //div[text()=' 30 ']
+17:05:55.676 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+17:05:55.692 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+17:05:55.732 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+17:05:55.742 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+17:05:55.750 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+17:05:55.765 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+17:05:58.110 [Test worker] INFO  manager.ListenerWD - After FInd Elements By -->By.cssSelector: .car-img-container
+17:05:58.111 [Test worker] INFO  manager.ListenerWD - List size is-->10
+17:05:58.114 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: input[aria-haspopup='dialog']
+17:05:58.134 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: input[aria-haspopup='dialog']

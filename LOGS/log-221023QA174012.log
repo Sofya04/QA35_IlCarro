@@ -1,0 +1,116 @@
+17:40:14.717 [Test worker] INFO  manager.ApplicationManager - Chrome Driver was opened
+17:40:19.279 [Test worker] INFO  manager.ApplicationManager - Current URL --> https://ilcarro-1578153671498.web.app/search
+17:40:19.297 [Test worker] INFO  TestBase - START TEST WITH NAME: searchAnyPeriod
+17:40:19.298 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #city
+17:40:19.377 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #city
+17:40:21.010 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: div.pac-item
+17:40:24.143 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: div.pac-item
+17:40:24.458 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #dates
+17:40:24.483 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #dates
+17:40:25.172 [Test worker] INFO  manager.HelperBase - Day of month--> 23
+17:40:25.173 [Test worker] INFO  manager.HelperBase - Month value--> 10
+17:40:25.173 [Test worker] INFO  manager.HelperBase - Year--> 2022
+17:40:25.173 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: button[aria-label='Next month']
+17:40:25.196 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: button[aria-label='Next month']
+17:40:25.365 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //div[text()=' 20 ']
+17:40:25.440 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //div[text()=' 20 ']
+17:40:25.606 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: button[aria-label='Next month']
+17:40:25.654 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: button[aria-label='Next month']
+17:40:26.299 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //div[text()=' 10 ']
+17:40:26.312 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //div[text()=' 10 ']
+17:40:26.573 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+17:40:26.590 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+17:40:26.621 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+17:40:26.632 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+17:40:26.642 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+17:40:26.650 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+17:40:28.921 [Test worker] INFO  manager.ListenerWD - After FInd Elements By -->By.cssSelector: .car-img-container
+17:40:28.921 [Test worker] INFO  manager.ListenerWD - List size is-->10
+17:40:28.925 [Test worker] INFO  TestBase - START TEST WITH NAME: searchInPast
+17:40:28.925 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #city
+17:40:29.020 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #city
+17:40:30.242 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: div.pac-item
+17:40:30.333 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: div.pac-item
+17:40:33.468 [Test worker] INFO  manager.ListenerWD - The name of the error methodclick
+17:40:33.482 [Test worker] INFO  manager.ListenerWD - Error description: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Gurevichs-MBP.lan', ip: '2a0d:6fc2:4e60:a900:6c9e:3e0c:d52d:ff7d%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f912d14756fa4ebe857040c06eb1cf96, clickElement {id=8185f018-9527-4e00-a7e1-28a4b9acf625}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /var/folders/1t/ycm_f_n138g...}, goog:chromeOptions: {debuggerAddress: localhost:50414}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50414/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (f912d14756fa4ebe857040c06eb1cf96)] -> css selector: div.pac-item]
+Session ID: f912d14756fa4ebe857040c06eb1cf96
+17:40:33.482 [Test worker] INFO  manager.ListenerWD - ******************************
+17:40:33.482 [Test worker] INFO  manager.ListenerWD - [[ChromeDriver: chrome on MAC (f912d14756fa4ebe857040c06eb1cf96)] -> css selector: div.pac-item]
+17:40:33.483 [Test worker] INFO  manager.ListenerWD - Screen with error is 1635src/test/Screenshots/screen1635.png
+17:40:33.486 [Test worker] INFO  TestBase - START TEST WITH NAME: searchCurrentMonthSuccessFromMainPage
+17:40:33.486 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #city
+17:40:34.243 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #city
+17:40:34.527 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: div.pac-item
+17:40:34.536 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: div.pac-item
+17:40:34.608 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #dates
+17:40:39.636 [Test worker] INFO  manager.ListenerWD - The name of the error methodfindElement
+17:40:39.636 [Test worker] INFO  manager.ListenerWD - Error description: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dates"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Gurevichs-MBP.lan', ip: '2a0d:6fc2:4e60:a900:6c9e:3e0c:d52d:ff7d%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f912d14756fa4ebe857040c06eb1cf96, findElement {using=css selector, value=#dates}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /var/folders/1t/ycm_f_n138g...}, goog:chromeOptions: {debuggerAddress: localhost:50414}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50414/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f912d14756fa4ebe857040c06eb1cf96
+17:40:39.637 [Test worker] INFO  manager.ListenerWD - ******************************
+17:40:39.637 [Test worker] INFO  manager.ListenerWD - ChromeDriver: chrome on MAC (f912d14756fa4ebe857040c06eb1cf96)
+17:40:39.637 [Test worker] INFO  manager.ListenerWD - Screen with error is 1637src/test/Screenshots/screen1637.png
+17:40:40.478 [Test worker] INFO  TestBase - START TEST WITH NAME: searchNextMonthSuccess
+17:40:40.479 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #city
+17:40:40.487 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #city
+17:40:40.906 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: div.pac-item
+17:40:41.138 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: div.pac-item
+17:40:41.672 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: [formcontrolname='dates']
+17:40:41.700 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: [formcontrolname='dates']
+17:40:41.820 [Test worker] INFO  manager.ListenerWD - After FInd Elements By -->By.cssSelector: [aria-label='Previous month']
+17:40:41.820 [Test worker] INFO  manager.ListenerWD - List size is-->1
+17:40:41.821 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: [aria-label='Previous month']
+17:40:41.832 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: [aria-label='Previous month']
+17:40:41.838 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //div[text()=' 25 ']
+17:40:41.849 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //div[text()=' 25 ']
+17:40:41.913 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //div[text()=' 30 ']
+17:40:41.942 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //div[text()=' 30 ']
+17:40:42.010 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+17:40:42.018 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+17:40:42.044 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+17:40:42.052 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+17:40:42.057 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+17:40:42.064 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+17:40:43.235 [Test worker] INFO  manager.ListenerWD - After FInd Elements By -->By.cssSelector: .car-img-container
+17:40:43.235 [Test worker] INFO  manager.ListenerWD - List size is-->2
+17:40:43.235 [Test worker] INFO  TestBase - START TEST WITH NAME: searchNextMonthSuccessFromHeader
+17:40:43.236 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: [href='/search']
+17:40:43.246 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: [href='/search']
+17:40:43.335 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #city
+17:40:43.343 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #city
+17:40:43.524 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: div.pac-item
+17:40:43.638 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: div.pac-item
+17:40:44.170 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #dates
+17:40:44.199 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: #dates
+17:40:44.715 [Test worker] INFO  manager.ListenerWD - After FInd Elements By -->By.cssSelector: [aria-label='Previous month']
+17:40:44.715 [Test worker] INFO  manager.ListenerWD - List size is-->1
+17:40:44.715 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: [aria-label='Previous month']
+17:40:44.808 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: [aria-label='Previous month']
+17:40:44.814 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //div[text()=' 25 ']
+17:40:44.855 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //div[text()=' 25 ']
+17:40:44.957 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //div[text()=' 30 ']
+17:40:44.979 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //div[text()=' 30 ']
+17:40:45.030 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+17:40:45.037 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+17:40:45.059 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+17:40:45.065 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+17:40:45.071 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+17:40:45.078 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+17:40:46.201 [Test worker] INFO  manager.ListenerWD - After FInd Elements By -->By.cssSelector: .car-img-container
+17:40:46.201 [Test worker] INFO  manager.ListenerWD - List size is-->10
+17:40:46.201 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: input[aria-haspopup='dialog']
+17:40:46.210 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: input[aria-haspopup='dialog']

@@ -26,15 +26,21 @@ public class HelperBase {
         }
     }
     public void submit() {//because its the same button for registration and login
-        new WebDriverWait(wd, Duration.ofSeconds(5)).until(ExpectedConditions.elementToBeClickable(wd.findElement(By.xpath("//button[@type='submit']"))));
-        wd.findElement(By.xpath("//button[@type='submit']")).click();
+        new WebDriverWait(wd, Duration.ofSeconds(5)).until(ExpectedConditions.visibilityOf(wd.findElement(By.xpath("//button[@type='submit']"))));
+           if(wd.findElement(By.xpath("//button[@type='submit']")).isEnabled()) {
+               wd.findElement(By.xpath("//button[@type='submit']")).click();
+           }
+           else{
+                boolean res = isYallaButtonNotActive()==false;
+           }
+
     }
 
     public boolean isElementPresent(By locator){
         return wd.findElements(locator).size()>0;
     }
     public boolean isYallaButtonNotActive() {
-        boolean res =isElementPresent(By.cssSelector("button[disabled]"));
+        boolean res = isElementPresent(By.cssSelector("button[disabled]"));
 
         return res &&!wd.findElement(By.cssSelector("[type='submit']")).isEnabled();
     }
