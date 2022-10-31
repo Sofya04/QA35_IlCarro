@@ -1,6 +1,7 @@
 package manager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -13,14 +14,15 @@ public class HelperSearch extends HelperBase{
     }
 
     private void typeCity(String city) {
-        type(By.cssSelector("#city"), city);
+        type(By.id("city"), city);
+        pause(500);
         click(By.cssSelector("div.pac-item"));
         //pause(500);
     }
 
     public void searchCurrentMonth(String city, String dateFrom, String dateTo) {
-        //click(By.cssSelector());
         typeCity(city);
+        clearTextBoxDates();
         click(By.cssSelector("#dates"));
 
         //10/25/2022
@@ -47,6 +49,7 @@ public class HelperSearch extends HelperBase{
     public void searchNextMonth(String city, String dateFrom, String dateTo) {
         typeCity(city);
         pause(500);
+        clearTextBoxDates();
         click(By.cssSelector("[formcontrolname='dates']"));
 
         if(isPreviousPageButtonNotActive()){
@@ -66,9 +69,9 @@ public class HelperSearch extends HelperBase{
     }
 
     public void searchNextMonthFromHeader(String city, String dateFrom, String dateTo) {
-        click(By.cssSelector("[href='/search']"));
         typeCity(city);
         pause(500);
+        clearTextBoxDates();
         click(By.cssSelector("#dates"));
         if(isPreviousPageButtonNotActive()){
             click(By.cssSelector(".mat-calendar-next-button"));
@@ -102,6 +105,7 @@ public class HelperSearch extends HelperBase{
     public void selectAnyPeriod(String city, String dateFrom, String dateTo) {
         click(By.cssSelector("[href='/search']"));
         typeCity(city);
+        clearTextBoxDates();
         click(By.cssSelector("#dates"));
         //String nowData = "10/20/2022";
         LocalDate now = LocalDate.now();
@@ -153,6 +157,26 @@ public class HelperSearch extends HelperBase{
     public void typePeriodInPast(String city, String dateFrom, String dateTo) {
         click(By.cssSelector("[href='/search']"));
         typeCity(city);
+        clearTextBoxDates();
         type(By.id("dates"), dateFrom + " - " + dateTo);
     }
+
+    public void clearTextBoxDates(){
+        WebElement el  =wd.findElement(By.id("dates"));
+        String osName = System.getProperty("os.name");
+        System.out.println(osName);
+        if(osName.startsWith("Mac")) {
+            logger.info("OS name is "+osName);
+            //Command +a
+            el.sendKeys(Keys.COMMAND,"a");
+        }else {
+            logger.info("OS name is"+osName);
+            el.sendKeys(Keys.CONTROL,"a");
+        }
+        el.sendKeys(Keys.DELETE);
+    }
+        public void clickLogo() {
+            click(By.cssSelector("[href='/search']"));
+        }
+
 }

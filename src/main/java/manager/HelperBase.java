@@ -25,15 +25,19 @@ public class HelperBase {
             element.sendKeys(text);
         }
     }
-    public void submit() {//because its the same button for registration and login
-        new WebDriverWait(wd, Duration.ofSeconds(5)).until(ExpectedConditions.visibilityOf(wd.findElement(By.xpath("//button[@type='submit']"))));
+    public void submitWithChecking() {//because its the same button for registration and login
+        pause(2000);
+        //new WebDriverWait(wd, Duration.ofSeconds(5)).until(ExpectedConditions.visibilityOf(wd.findElement(By.xpath("//button[@type='submit']"))));
            if(wd.findElement(By.xpath("//button[@type='submit']")).isEnabled()) {
                wd.findElement(By.xpath("//button[@type='submit']")).click();
            }
-           else{
-                boolean res = isYallaButtonNotActive()==false;
-           }
 
+    }
+    public void submit() {
+        new WebDriverWait(wd, Duration.ofSeconds(5))
+                .until(ExpectedConditions.elementToBeClickable(wd.findElement(By.cssSelector("button[type='submit']"))));
+        wd.findElement(By.cssSelector("button[type='submit']")).click();
+        //button[text()='YЭalla!']
     }
 
     public boolean isElementPresent(By locator){

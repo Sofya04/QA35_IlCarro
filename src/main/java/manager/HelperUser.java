@@ -55,6 +55,7 @@ public class HelperUser extends HelperBase {
         // pause(2000);
         return wd.findElement(By.cssSelector("div.dialog-container>h1")).getText();
     }
+
     public void clickOkButton() {
         if (isElementPresent(By.xpath("//button[text()='Ok']"))) {
             click(By.xpath("//button[text()='Ok']"));
@@ -95,6 +96,7 @@ public class HelperUser extends HelperBase {
     }
 
     public boolean isErrorMessageDisplayed() {
-        return wd.findElements(By.cssSelector("div.error")).size()>0;
+        String res = wd.findElement(By.cssSelector("div.ng-star-inserted")).getText();
+        return res.equals("You can't pick date before today");
     }
 }

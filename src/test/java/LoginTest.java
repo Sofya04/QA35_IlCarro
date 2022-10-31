@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class LoginTest extends TestBase{
 
-    @BeforeMethod
+    @BeforeMethod (alwaysRun = true)
     public void precondition(){
         if (app.getHelperUser().isLogged())
             app.getHelperUser().logOut();
@@ -41,7 +41,7 @@ public class LoginTest extends TestBase{
         logger.info("User logged in successfully with such data: sonka04@gmail.com, Sonka04$");
 
     }
-    @Test
+    @Test (groups = {"smoke"})
     public void loginSuccessModels(){
         User user = new User().withEmail("sonka04@gmail.com").withPassword("Sonka04$");
         app.getHelperUser().openLoginFormHeader();
@@ -60,14 +60,14 @@ public class LoginTest extends TestBase{
         User user = new User().withEmail("sonka04gmail.com").withPassword("Sonka04$");
         app.getHelperUser().openLoginFormHeader();
         app.getHelperUser().fillLoginForm(user);
-        app.getHelperUser().submit();
+        app.getHelperUser().submitWithChecking();
 
        Assert.assertEquals(app.getHelperUser().getErrorMessage(), "It'snot look like email");
     }
 
-    @Test
+    @Test (enabled = false)//(Bug jira - 0001)
     public void negativeWrongPassword(){
-        User user = new User().withEmail("sonka04@gmail.com").withPassword("Sonka04");
+        User user = new User().withEmail("sonka04@gmail.com").withPassword("Sonka4");
         app.getHelperUser().openLoginFormHeader();
         app.getHelperUser().fillLoginForm(user);
         app.getHelperUser().submit();
@@ -75,7 +75,7 @@ public class LoginTest extends TestBase{
         Assert.assertEquals(app.getHelperUser().getErrorWrongPassword(), "Wrong email or password");
     }
 
-    @AfterMethod
+    @AfterMethod (alwaysRun = true)
     public void postCondition(){
         app.getHelperUser().clickOkButton();
     }

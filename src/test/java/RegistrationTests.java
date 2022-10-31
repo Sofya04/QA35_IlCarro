@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class RegistrationTests extends TestBase{
 
-    @BeforeMethod
+    @BeforeMethod (alwaysRun = true)
     public void precondition(){
         if (app.getHelperUser().isLogged())
             app.getHelperUser().logOut();
@@ -41,8 +41,7 @@ public class RegistrationTests extends TestBase{
         logger.info("In assert checked message 'Registered' in dialog  ");
     }
 
-        @Test
-
+    @Test (groups = {"smoke"})
     public void registrationWrongPassword(){
 
         User user = new User().withName("Polina").withLastName("Ignatenko").withEmail("polina34@mail.com").withPassword("Polina");
@@ -55,7 +54,7 @@ public class RegistrationTests extends TestBase{
                 "Password must contain 1 uppercase letter, 1 lowercase letter and one number");
 
     }
-    @AfterMethod
+    @AfterMethod (alwaysRun = true)
     public void postCondition(){
         app.getHelperUser().clickOkButton();
 

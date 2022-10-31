@@ -1,0 +1,91 @@
+17:55:57.730 [Test worker] INFO  manager.ApplicationManager - FireFox was opened
+17:56:00.363 [Test worker] INFO  manager.ApplicationManager - Current URL --> https://ilcarro-1578153671498.web.app/search
+17:56:00.390 [Test worker] INFO  TestBase - START TEST WITH NAME: addCarSuccess
+17:56:05.419 [Test worker] INFO  manager.ListenerWD - After FInd Elements By -->By.xpath: //*[text()=' Logout ']
+17:56:05.420 [Test worker] INFO  manager.ListenerWD - List size is-->0
+17:56:05.421 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //*[text()=' Log in ']
+17:56:05.445 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //*[text()=' Log in ']
+17:56:05.730 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.id: email
+17:56:05.743 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.id: email
+17:56:06.009 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.id: password
+17:56:06.019 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.id: password
+17:56:06.257 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+17:56:06.267 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+17:56:06.286 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+17:56:06.294 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+17:56:06.302 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+17:56:06.309 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+17:56:06.760 [Test worker] INFO  manager.ListenerWD - After FInd Elements By -->By.xpath: //button[text()='Ok']
+17:56:06.761 [Test worker] INFO  manager.ListenerWD - List size is-->1
+17:56:06.761 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+17:56:06.769 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[text()='Ok']
+17:56:08.986 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: [href='/let-car-work']
+17:56:09.000 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: [href='/let-car-work']
+17:56:09.281 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.id: pickUpPlace
+17:56:09.290 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.id: pickUpPlace
+17:56:09.588 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: div.pac-item
+17:56:10.087 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: div.pac-item
+17:56:11.310 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.id: make
+17:56:11.324 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.id: make
+17:56:11.563 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.id: model
+17:56:11.572 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.id: model
+17:56:11.805 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.id: year
+17:56:11.813 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.id: year
+17:56:12.054 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.id: engine
+17:56:12.063 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.id: engine
+17:56:12.301 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.id: fuel
+17:56:12.310 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.id: fuel
+17:56:12.537 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.id: gear
+17:56:12.547 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.id: gear
+17:56:12.774 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.id: wheelsDrive
+17:56:12.787 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.id: wheelsDrive
+17:56:13.020 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.id: doors
+17:56:13.032 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.id: doors
+17:56:13.271 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.id: seats
+17:56:13.281 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.id: seats
+17:56:13.530 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.id: class
+17:56:13.539 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.id: class
+17:56:13.785 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.id: fuelConsumption
+17:56:13.794 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.id: fuelConsumption
+17:56:14.037 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.id: serialNumber
+17:56:14.044 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.id: serialNumber
+17:56:14.293 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.id: price
+17:56:14.299 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.id: price
+17:56:14.534 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.id: distance
+17:56:14.541 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.id: distance
+17:56:14.788 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: .feature-input
+17:56:14.796 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: .feature-input
+17:56:15.032 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.id: about
+17:56:15.041 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.id: about
+17:56:15.319 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.id: photos
+17:56:15.325 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.id: photos
+17:56:15.349 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+17:56:15.355 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+17:56:15.367 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+17:56:15.372 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+17:56:15.375 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: #mat-dialog-1>h1
+17:56:20.391 [Test worker] INFO  manager.ListenerWD - The name of the error methodfindElement
+17:56:20.411 [Test worker] INFO  manager.ListenerWD - Error description: org.openqa.selenium.NoSuchElementException: Unable to locate element: #mat-dialog-1>h1
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Gurevichs-MBP.lan', ip: '2a0d:6fc2:4e60:a900:35ea:43a0:fb74:17d2%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3fb13a4f-ccc7-4e6d-9b6c-b6cbfce68dbd, findElement {using=css selector, value=#mat-dialog-1>h1}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.1, moz:accessibilityChecks: false, moz:buildID: 20221019185550, moz:debuggerAddress: 127.0.0.1:60967, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 18507, moz:profile: /var/folders/1t/ycm_f_n138g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:60967/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3fb13a4f-ccc7-4e6d-9b6c-b6cbfce68dbd
+17:56:20.412 [Test worker] INFO  manager.ListenerWD - ******************************
+17:56:20.412 [Test worker] INFO  manager.ListenerWD - FirefoxDriver: firefox on MAC (3fb13a4f-ccc7-4e6d-9b6c-b6cbfce68dbd)
+17:56:20.414 [Test worker] INFO  manager.ListenerWD - Screen with error is 1565src/test/Screenshots/screen1565.png
+17:56:20.419 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Search cars']
+17:56:25.432 [Test worker] INFO  manager.ListenerWD - The name of the error methodfindElement
+17:56:25.432 [Test worker] INFO  manager.ListenerWD - Error description: org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[text()='Search cars']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Gurevichs-MBP.lan', ip: '2a0d:6fc2:4e60:a900:35ea:43a0:fb74:17d2%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3fb13a4f-ccc7-4e6d-9b6c-b6cbfce68dbd, findElement {using=xpath, value=//button[text()='Search cars']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.1, moz:accessibilityChecks: false, moz:buildID: 20221019185550, moz:debuggerAddress: 127.0.0.1:60967, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 18507, moz:profile: /var/folders/1t/ycm_f_n138g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:60967/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3fb13a4f-ccc7-4e6d-9b6c-b6cbfce68dbd
+17:56:25.432 [Test worker] INFO  manager.ListenerWD - ******************************
+17:56:25.432 [Test worker] INFO  manager.ListenerWD - FirefoxDriver: firefox on MAC (3fb13a4f-ccc7-4e6d-9b6c-b6cbfce68dbd)
+17:56:25.433 [Test worker] INFO  manager.ListenerWD - Screen with error is 1315src/test/Screenshots/screen1315.png
