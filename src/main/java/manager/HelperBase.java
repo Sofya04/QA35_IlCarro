@@ -37,7 +37,6 @@ public class HelperBase {
         new WebDriverWait(wd, Duration.ofSeconds(5))
                 .until(ExpectedConditions.elementToBeClickable(wd.findElement(By.cssSelector("button[type='submit']"))));
         wd.findElement(By.cssSelector("button[type='submit']")).click();
-        //button[text()='YЭalla!']
     }
 
     public boolean isElementPresent(By locator){
