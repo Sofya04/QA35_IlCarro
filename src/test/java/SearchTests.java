@@ -6,7 +6,7 @@ public class SearchTests extends TestBase{
 
     @Test  (priority = 1)
     public void searchCurrentMonthSuccessFromMainPage(){
-        app.getSearch().searchCurrentMonth("Tel Aviv","10/28/2022", "10/30/2022");//data format dd/mm/yyyy
+        app.getSearch().searchCurrentMonth("Tel Aviv","11/8/2022", "11/15/2022");//data format dd/mm/yyyy
         app.getSearch().submit();
         Assert.assertTrue(app.getSearch().isListOfCarsAppeared());
 
