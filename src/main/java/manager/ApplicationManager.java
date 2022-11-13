@@ -29,7 +29,7 @@ public class ApplicationManager {
             logger.info("Chrome Driver was opened");
 
         }
-        else if(browser.equals(Browser.CHROME.browserName())){
+        else if(browser.equals(Browser.FIREFOX.browserName())){
             wd = new FirefoxDriver();
             logger.info("FireFox was opened");
 

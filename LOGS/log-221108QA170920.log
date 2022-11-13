@@ -1,0 +1,18 @@
+17:09:24.075 [Test worker] INFO  manager.ApplicationManager - FireFox was opened
+17:09:26.125 [Test worker] INFO  manager.ApplicationManager - Current URL --> https://ilcarro-1578153671498.web.app/search
+17:09:26.147 [Test worker] INFO  TestBase - START TEST WITH NAME: negativeWrongEmail
+17:09:31.175 [Test worker] INFO  manager.ListenerWD - After FInd Elements By -->By.xpath: //*[text()=' Logout ']
+17:09:31.176 [Test worker] INFO  manager.ListenerWD - List size is-->0
+17:09:31.176 [Test worker] INFO  TestBase - User logged out
+17:09:31.179 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //*[text()=' Log in ']
+17:09:31.203 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //*[text()=' Log in ']
+17:09:31.485 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.id: email
+17:09:31.508 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.id: email
+17:09:31.792 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.id: password
+17:09:31.800 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.id: password
+17:09:34.045 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[@type='submit']
+17:09:34.061 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.xpath: //button[@type='submit']
+17:09:34.074 [Test worker] INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: div.error
+17:09:34.083 [Test worker] INFO  manager.ListenerWD - After Find Element by --> By.cssSelector: div.error
+17:09:39.115 [Test worker] INFO  manager.ListenerWD - After FInd Elements By -->By.xpath: //button[text()='Ok']
+17:09:39.116 [Test worker] INFO  manager.ListenerWD - List size is-->0
